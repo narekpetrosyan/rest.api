@@ -1,47 +1,14 @@
 {
   "posts": [
-    {
-      "id": 1,
-      "title": "Lorem Ipsum"
-    },
-    {
-      "id": 2,
-      "title": "Where can I get some?"
-    },
-    {
-      "id": 3,
-      "title": "Why do we use it?"
-    },
-    {
-      "id": 4,
-      "title": "Where does it come from?"
-    },
-    {
-      "id": 5,
-      "title": "Neque porro"
-    },
-    {
-      "id": 6,
-      "title": "There are many"
-    },
-    {
-      "id": 7,
-      "title": "Dolor sit amet"
-    },
-    {
-      "id": 8,
-      "title": "Cicero in 45"
-    },
-    {
-      "id": 9,
-      "title": "At vero eos"
-    },
-    {
-      "id": 10,
-      "title": "On the other hand"
-    },
+    { "id": 1, "title": "Post 1" },
+    { "id": 2, "title": "Post 2" },
+    { "id": 3, "title": "Post 3" }
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 },
+    { "id": 2, "body": "some comment", "postId": 1 }
   ],
   "profile": {
-    "name": "narekpetrosyan"
+    "name": "typicode"
   }
 }
