@@ -63,6 +63,98 @@
          "postId":1
       }
    ],
+   "tweets":[
+  {
+    "_id": "6000272e9190919066a68d6b",
+    "text": "Velit enim minim minim reprehenderit laboris occaecat nisi sit nostrud. Quis commodo laboris sint fugiat esse eu elit nostrud proident duis consequat velit. Aliqua nisi ipsum ex eu qui ullamco proident adipisicing reprehenderit irure qui anim cupidatat est. Labore incididunt laborum occaecat commodo aliqua irure dolore. Magna minim esse pariatur dolore enim mollit elit enim ex non nulla.",
+    "user": {
+      "fullName": "Hutchinson Mcbride",
+      "userName": "Stanley",
+      "avatarUrl": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+    }
+  },
+  {
+    "_id": "6000272ed817a36ee3942f19",
+    "text": "Laborum minim incididunt sint mollit velit cupidatat exercitation exercitation enim. Exercitation proident laboris aute veniam in. Ipsum duis id esse id ex. Eiusmod minim officia enim eiusmod pariatur tempor mollit enim pariatur sunt do. Mollit anim cillum commodo fugiat consequat laboris occaecat qui ad eiusmod incididunt occaecat consectetur minim.",
+    "user": {
+      "fullName": "Anderson Lyons",
+      "userName": "Stanton",
+      "avatarUrl": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+    }
+  },
+  {
+    "_id": "6000272e71ef3134c2fa4481",
+    "text": "Amet laborum nulla proident consequat Lorem eu non minim consequat cillum in culpa dolore anim. Aute aliquip id id quis id exercitation veniam labore. Quis dolor sint sit voluptate aliquip consequat. Nulla culpa consectetur consequat est eiusmod minim. Voluptate labore tempor id fugiat.",
+    "user": {
+      "fullName": "Phelps Merrill",
+      "userName": "Lorena",
+      "avatarUrl": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+    }
+  },
+  {
+    "_id": "6000272e809822be3e6f049d",
+    "text": "Ex culpa ipsum consequat nisi reprehenderit dolore quis ipsum do Lorem cupidatat laboris occaecat. Dolor exercitation adipisicing dolor nulla nostrud voluptate nulla veniam ullamco eu in. Voluptate tempor non culpa ad. Ex non adipisicing eiusmod dolor. Sint reprehenderit incididunt exercitation incididunt pariatur.",
+    "user": {
+      "fullName": "Beth Payne",
+      "userName": "Quinn",
+      "avatarUrl": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+    }
+  },
+  {
+    "_id": "6000272e4aa37903716f64ad",
+    "text": "Minim ipsum ex fugiat aliqua. Exercitation occaecat sunt deserunt ex est proident ea ipsum qui occaecat proident laborum aliqua. Officia minim magna enim occaecat dolor officia anim do consequat. Eiusmod voluptate sit proident eu anim sint nisi ut tempor quis aliqua. Laboris nulla consectetur et ut.",
+    "user": {
+      "fullName": "Cannon Livingston",
+      "userName": "Avis",
+      "avatarUrl": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+    }
+  },
+  {
+    "_id": "6000272ec03b9530532d31bb",
+    "text": "Nulla pariatur id nulla consectetur ut est in adipisicing Lorem ad officia occaecat irure magna. Ullamco excepteur do nostrud officia cupidatat esse non adipisicing amet cillum cillum. Elit est proident dolore ut ut. Sint adipisicing sunt laborum dolore ullamco sint fugiat minim qui do esse id et. Tempor laboris qui sint nisi ea eu.",
+    "user": {
+      "fullName": "Erin May",
+      "userName": "Nielsen",
+      "avatarUrl": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+    }
+  },
+  {
+    "_id": "6000272efce4edbe86777fa3",
+    "text": "Id nostrud amet laborum consectetur non aliqua laborum laboris. Elit anim culpa dolor ut culpa et eu elit est nulla in ex deserunt incididunt. Reprehenderit ad tempor esse esse nisi cillum proident excepteur fugiat. Excepteur qui aliquip anim consectetur ad consectetur laboris mollit id velit fugiat labore elit. Do nostrud enim esse irure dolore qui sit sint.",
+    "user": {
+      "fullName": "Mccall Garza",
+      "userName": "Dudley",
+      "avatarUrl": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+    }
+  },
+  {
+    "_id": "6000272ee24e9ac2a700d898",
+    "text": "Veniam reprehenderit aliqua ea proident duis velit sunt fugiat. Consequat dolore irure do mollit cupidatat. Laboris reprehenderit consectetur aliqua anim elit minim. Minim dolor laborum dolore id adipisicing. Reprehenderit sunt nulla ea eu ipsum culpa.",
+    "user": {
+      "fullName": "Mcdaniel Haley",
+      "userName": "Compton",
+      "avatarUrl": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+    }
+  },
+  {
+    "_id": "6000272e763c06f480275a45",
+    "text": "Sit adipisicing incididunt labore culpa sunt excepteur nostrud. Occaecat consequat non ex voluptate proident sunt dolore proident voluptate sint est. Magna voluptate cillum duis cupidatat anim aute cillum. Aliquip excepteur est sunt enim cillum incididunt consequat enim velit consequat labore reprehenderit dolor elit. Veniam magna do esse dolor esse fugiat.",
+    "user": {
+      "fullName": "Lauri Rice",
+      "userName": "Cardenas",
+      "avatarUrl": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+    }
+  },
+  {
+    "_id": "6000272efb47d66f76551113",
+    "text": "Consectetur ut exercitation laboris dolore. Laborum enim do duis nisi culpa. Anim quis aliquip labore nisi anim minim dolor cillum nostrud nisi nulla. Sit veniam aute sit nostrud aliqua exercitation qui excepteur culpa ipsum eu velit consequat aute. Ex elit pariatur voluptate duis.",
+    "user": {
+      "fullName": "Alba Rivers",
+      "userName": "Tyson",
+      "avatarUrl": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+    }
+  }
+],
    "profile":{
       "name":"narekpetrosyan"
    }
