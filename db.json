@@ -94,43 +94,33 @@
    "themes": [
   {
     "_id": "60018a4535ff86799a0f72e8",
-    "name": "ipsum culpa"
+    "name": "ipsum culpa",
+     "count" : "16081"
   },
   {
     "_id": "60018a450ef36937512564e5",
-    "name": "dolore enim"
+    "name": "dolore enim",
+     "count" : "16081"
   },
   {
     "_id": "60018a45bd3b4f4b041a134b",
-    "name": "dolor aliquip"
+    "name": "dolor aliquip",
+     "count" : "16081"
   },
   {
     "_id": "60018a45f4f42efe06c79859",
-    "name": "labore cupidatat"
+    "name": "labore cupidatat",
+     "count" : "16081"
   },
   {
     "_id": "60018a45b46290f709a52bd1",
-    "name": "laboris est"
-  },
-  {
-    "_id": "60018a45ebb4fc179cf8fd7a",
-    "name": "magna mollit"
-  },
-  {
-    "_id": "60018a45f54e302c62dcd2cc",
-    "name": "ut commodo"
-  },
-  {
-    "_id": "60018a45061283ef3925113c",
-    "name": "ad adipisicing"
-  },
-  {
-    "_id": "60018a45b3520549434e6a82",
-    "name": "deserunt magna"
+    "name": "laboris est",
+     "count" : "16081"
   },
   {
     "_id": "60018a4510afb250e8c3da91",
-    "name": "consectetur cupidatat"
+    "name": "consectetur cupidatat",
+     "count" : "16081"
   }
 ],
    "users": [
