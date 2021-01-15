@@ -1,68 +1,4 @@
 {
-   "posts":[
-      {
-         "id":1,
-         "title":"Lorem Ipsum",
-         "image": "https://i.ytimg.com/vi/gD4uACwPChA/maxresdefault.jpg"
-      },
-      {
-         "id":2,
-         "title":"Where can I get some?",
-         "image": "https://www.canon.com.au/-/media/images/learning/how-to-print-professional-photos-at-home/image-1-kirkr-twelveapostlesvictoria-1000.ashx?la=en"
-      },
-      {
-         "id":3,
-         "title":"Why do we use it?",
-         "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg"
-      },
-      {
-         "id":4,
-         "title":"Where does it come from?",
-         "image": "https://www.gettyimages.com/gi-resources/images/500px/983794168.jpg"
-      },
-      {
-         "id":5,
-         "title":"Neque porro",
-         "image": "https://www.nhm.ac.uk/content/dam/nhmwww/discover/wpy-2020-winning-images/wpy-winning-image-full-width.jpg"
-      },
-      {
-         "id":6,
-         "title":"There are many",
-         "image": "https://helpx.adobe.com/content/dam/help/en/stock/how-to/visual-reverse-image-search/jcr_content/main-pars/image/visual-reverse-image-search-v2_intro.jpg"
-      },
-      {
-         "id":7,
-         "title":"Dolor sit amet",
-         "image": "https://www.w3schools.com/w3css/img_forest.jpg"
-      },
-      {
-         "id":8,
-         "title":"Cicero in 45",
-         "image": "https://s23527.pcdn.co/wp-content/uploads/2020/01/100k-moon.jpg.optimal.jpg"
-      },
-      {
-         "id":9,
-         "title":"At vero eos",
-         "image": "https://www.lamodeenimages.com/sites/default/files-lmi/styles/1365x768/public/images/article/homepage/full/louis-vuitton-volez-voguez-voyagez-shanghai-exhibition-center-la-mode-en-images-cover.jpg?itok=5ygYxpnS"
-      },
-      {
-         "id":10,
-         "title":"On the other hand",
-         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSu5RVwzc8LFlzQ3hbeeGM2JSLw47uwgWaAg&usqp=CAU"
-      }
-   ],
-   "comments":[
-      {
-         "id":1,
-         "body":"some comment",
-         "postId":1
-      },
-      {
-         "id":2,
-         "body":"some comment",
-         "postId":1
-      }
-   ],
    "tweets":[
   {
     "_id": "6000272e9190919066a68d6b",
@@ -155,12 +91,74 @@
     }
   }
 ],
-   "user": {
-      "_id": "f72e763c06f480275a45",
-      "fullName": "Alba Rivers",
-      "userName": "Tyson",
-      "avatarUrl": "https://scontent.fevn1-4.fna.fbcdn.net/v/t1.0-9/90908198_2844477772336708_3943811723361779712_n.jpg?_nc_cat=101&ccb=2&_nc_sid=8bfeb9&_nc_ohc=MUnVa601wXoAX_SJ7Wv&_nc_ht=scontent.fevn1-4.fna&oh=1d9abe8f058417adb0764b900cd1fa0f&oe=60255490"
-    },
+   "themes": [
+  {
+    "_id": "60018a4535ff86799a0f72e8",
+    "name": "ipsum culpa"
+  },
+  {
+    "_id": "60018a450ef36937512564e5",
+    "name": "dolore enim"
+  },
+  {
+    "_id": "60018a45bd3b4f4b041a134b",
+    "name": "dolor aliquip"
+  },
+  {
+    "_id": "60018a45f4f42efe06c79859",
+    "name": "labore cupidatat"
+  },
+  {
+    "_id": "60018a45b46290f709a52bd1",
+    "name": "laboris est"
+  },
+  {
+    "_id": "60018a45ebb4fc179cf8fd7a",
+    "name": "magna mollit"
+  },
+  {
+    "_id": "60018a45f54e302c62dcd2cc",
+    "name": "ut commodo"
+  },
+  {
+    "_id": "60018a45061283ef3925113c",
+    "name": "ad adipisicing"
+  },
+  {
+    "_id": "60018a45b3520549434e6a82",
+    "name": "deserunt magna"
+  },
+  {
+    "_id": "60018a4510afb250e8c3da91",
+    "name": "consectetur cupidatat"
+  }
+],
+   "users": [
+  {
+    "_id": "60018aaa7d62122986a42841",
+    "fullName": "Henderson Hendrix",
+    "userName": "Walter",
+    "avatarUrl": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+  },
+  {
+    "_id": "60018aaa5f35ea82bf3a05d6",
+    "fullName": "Chandra Snyder",
+    "userName": "Willa",
+    "avatarUrl": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+  },
+  {
+    "_id": "60018aaa9c650496db84c651",
+    "fullName": "Blake Martinez",
+    "userName": "Jordan",
+    "avatarUrl": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+  },
+  {
+    "_id": "60018aaaf4a68f87fc5c3b61",
+    "fullName": "Sue Bright",
+    "userName": "Janette",
+    "avatarUrl": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+  }
+],
    "profile":{
       "name":"narekpetrosyan"
    }
