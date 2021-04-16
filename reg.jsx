@@ -26,7 +26,7 @@ import {
 import loginIcon from "../../assets/images/logo/login.png";
 import leftImg from "../../assets/images/login/img3.jpg";
 import leftImg1 from "../../assets/images/login/img3.jpg";
-import { registerUserAction } from "../../redux/authentication/action";
+import { setLoadingAction } from "../../redux/authentication/action";
 import { useDispatch } from "react-redux";
 import { useSelector } from "react-redux";
 import { Link, useHistory } from "react-router-dom";
@@ -150,7 +150,11 @@ const RegisterWithBgImage = (props) => {
     };
     const handleSubmit = (values) => {
         // dispatch(registerUserAction(values));
-        console.log("registered",values);
+        dispatch(setLoadingAction(true));
+        setTimeout(() => {
+            console.log("registered", values);
+            dispatch(setLoadingAction(false));
+        }, 2000);
     };
 
     return (
@@ -459,3 +463,4 @@ const RegisterWithBgImage = (props) => {
 };
 
 export default RegisterWithBgImage;
+
