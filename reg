@@ -1,0 +1,172 @@
+//RegCtrl.php
+
+public function register(Request $request)
+    {
+        $messages = array(
+            'required' => 'Поле :attribute должно быть заполнено.',
+            'unique' => "Данная почта уже используется."
+        );
+        $validator = Validator::make($request->all(), [
+            'firstName' => 'required|string|max:50',
+            'lastName' => 'required|string|max:50',
+            'email' => 'required|string|unique:users',
+            'phone' => 'required',
+            'password' => 'required'
+        ],$messages);
+
+        if ($validator->fails()) {
+            $err_response = [
+                'params' => $validator->errors()
+            ];
+            return response($err_response, 400);
+        } else {
+            $user = User::create([
+                "first_name" => $request->input('firstName'),
+                "last_name" => $request->input('lastName'),
+                "email" => $request->input('email'),
+                "phone_number" => $request->input('phone'),
+                "password" => bcrypt($request->input('password'))
+            ]);
+            $token = $user->createToken('secretToken')->plainTextToken;
+            $response = [
+                'id' => $user->id,
+                'object' => 'account',
+                'first_name' => $user['first_name'],
+                'last_name' => $user['last_name'],
+                'email' => $user['email'],
+                'token' => $token
+            ];
+
+            return response($response, 201);
+        }
+
+
+    }
+    
+    
+    
+    
+    
+// Auth route API
+
+export const registerUserApi = (payload) => {
+    return axios
+        .post(`/api/account/register`, JSON.stringify(payload), {
+            headers: {
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "*",
+            },
+        })
+        .then(({ data }) => data)
+        .catch((error) => {
+            if (error.response) {
+                return error.response.data;
+            }
+        });
+};
+
+
+
+
+
+//action.js
+
+import {
+    REGISTER_USER,
+    SET_LOADING,
+    SET_REGISTERED_USER,
+    SET_REGISTERED_USER_ERRORS,
+} from "./types";
+
+export const registerUserAction = (payload) => ({
+    type: REGISTER_USER,
+    payload,
+});
+
+export const setUserAction = (payload) => ({
+    type: SET_REGISTERED_USER,
+    payload,
+});
+
+export const setUserErrorsAction = (payload) => ({
+    type: SET_REGISTERED_USER_ERRORS,
+    payload,
+});
+
+export const setLoadingAction = (payload) => ({
+    type: SET_LOADING,
+    payload,
+});
+
+
+
+//saga.js
+
+import { call, put, takeLatest } from "redux-saga/effects";
+import { registerUserApi } from "../../api";
+import { REGISTER_USER } from "./types";
+import { setUserAction, setUserErrorsAction, setLoadingAction } from "./action";
+
+function* registerUser({ payload }) {
+    try {
+        yield put(setLoadingAction(true));
+        const user = yield call(registerUserApi, payload);
+        if (user.params) {
+            yield put(setUserErrorsAction(...Object.values(user.params)[0]));
+            yield put(setLoadingAction(false));
+            return;
+        }
+        yield put(setUserAction(user));
+        yield put(setLoadingAction(false));
+    } catch (error) {
+        console.log(error);
+    }
+}
+
+export function* watchRegisterUser() {
+    yield takeLatest(REGISTER_USER, registerUser);
+}
+
+
+
+//reducer.js
+
+import {
+    SET_REGISTERED_USER,
+    SET_REGISTERED_USER_ERRORS,
+    SET_LOADING,
+} from "./types";
+
+const initial_state = {
+    user: {},
+    errors: null,
+    loading: false,
+};
+
+export default (state = initial_state, action) => {
+    const { type, payload } = action;
+    switch (type) {
+        case SET_REGISTERED_USER:
+            return {
+                ...state,
+                user: payload,
+                errors: null,
+            };
+        case SET_REGISTERED_USER_ERRORS:
+            return {
+                ...state,
+                user: {},
+                errors: payload,
+            };
+        case SET_LOADING:
+            return {
+                ...state,
+                loading: payload,
+            };
+        default:
+            return { ...state };
+    }
+};
+
+
+
